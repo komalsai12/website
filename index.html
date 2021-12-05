@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD PART OF THE HTML-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/fav.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!--BODY PART OF THE HTML-->
+<body>
+     <header><!--HEADER PART WHICH CONTAIN THE NAVIGATION LINKS AND HOME PAGE-->
+         <div class=" container">
+
+         <nav class="flex items-center justify-between">
+             <div class="left flex items-center">
+                 <div class="branding">
+                     <img src="images/Capture.jpeg" width="100" height="100" alt="">
+                 </div>
+
+               <div>
+                 <a href ="#">Home</a>
+                 <a href ="#About">About</a>
+                 <a href ="#project">Projects</a>
+                 <a href ="#cert">Certifications</a>
+                 <a href ="#skills">Skills</a>
+                </div>
+             </div>
+             <div class="right">
+
+				 <a href="#contact" class="btn btn-primary" role="button">Contact</a>
+
+             </div>
+         </nav>
+             <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/back-modified.png" alt="">
+                    </div>
+
+             <div class="right flex-1">
+                        <h2>Komal Sai Sajja</h2>
+                        <h1>Hi,Welcome to my <span>Website</span></h1>
+
+                        <div>
+                           <!--<button class="btn btn-secondary">DOWNLOAD Resume</button>-->
+							<a href="Resume/Resume.pdf" class="btn btn-secondary" role="button">Download  Resume</a>
+                        </div>
+                 </div>
+             </div>
+         </div>
+     </header>
+	 <!--------------------ABOUT SECTION------------------>
+<section class="About" id="About">
+<div class="container flex items-center">
+
+    <div class="flex-1 right justify-center">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I’m Komal Sai Sajja.</h3>
+                    <p>  A student of National Institute of Technology , Karnataka pursuing my Master's degree in Computer Science
+						and Engineering. I have done my Bachelors in JNTU KAKINADA.<br>
+						I am interested in Machine Learning.
+						I am good at Web development .<br>
+						I participate in competetive coding. My hobbies are playing Bullet Chess and Reading Fictional Books.
+                    </p>
+         <div class="social items-center justify-between justify-center ">
+
+                        <a href="https://www.facebook.com"><img src="./images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/komalsai27"> <img src="./images/img_3.png" height="48" width="48" alt=""></a>
+			 			<a href="https://instagram.com"><img src="images/img_1.png" height="48" width="48" alt=""></a>
+			 			<a href="https://hackerank.com"><img src="images/img_2.png" height="48" width="48" alt=""></a>
+
+
+                    </div>
+</div>
+</div>
+</section>
+
+<!--List of Projects in the project card format-------------->
+
+
+<section class="project" id="project">
+			<br>
+			<h1 id="proj">MY <span>Projects</span></h1>
+			<br>
+			<div class="project-table">
+				<div class="project-card">
+					<h3 class="project-card-header">Jul '21</h3>
+					<h2 style="font-family: 'Merriweather', serif; font-size: 20px;"><br>Link Prediction on Complex Networks</h2><br>
+					<p>SImplementing the Node-Neighbourhood algorithms and visualize
+them with graphical tool based on python</p><br>
+					Technology used-<br> Python, Numpy, Matplotlib
+
+				</div>
+				<div class="project-card">
+					<h3 class="project-card-header">Jan '21</h3>
+					<h2 style="font-family: 'Merriweather', serif; font-size: 20px;"><br>Recommendation System</h2><br>
+					<p>Music and Movie recommender systems using collaborative filtering on public
+datasets.</p><br>
+					Technology used -<br> Python,Numpy,Pandas
+
+				</div>
+
+
+			</div>
+		</section>
+	 <!--Starting of Certifications------------------->
+<section class="cert" id="cert">
+			<br>
+			<h1 id="certi">MY <span>certifications</span></h1>
+			<br>
+			<div class="project-table">
+
+				<div class="card middle">
+					<div class="front">
+						<img src="./images/nn.jpeg" alt="">
+					</div>
+					<div class="back">
+						<div class="back-content middle">
+							<h2 style="font-family: 'Merriweather', serif; font-size: 20px">Neural Networks and Deep Learning</h2><br>
+							<b>Coursera</b><br>
+							<i>Nov '21</i><br>
+
+						</div>
+					</div>
+				</div>
+				<div class="card middle">
+					<div class="front">
+						<img src="./images/cnn.jpeg" alt="">
+					</div>
+					<div class="back">
+						<div class="back-content middle">
+							<h2 style="font-family: 'Merriweather', serif; font-size: 20px">Convolutional  Neural Networks</h2><br>
+							<b>Coursera</b><br>
+							<i>Nov '21</i><br>
+
+						</div>
+					</div>
+				</div>
+				<div class="card middle">
+					<div class="front">
+						<img src="./images/oops.png" alt="">
+					</div>
+					<div class="back">
+						<div class="back-content middle">
+							<h2 style="font-family: 'Merriweather', serif; font-size: 20px">Object Oriented  in C++</h2><br>
+							<b>Coursera</b><br>
+							<i>Mar '18</i><br>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	 <!------------SKILLS IN PROGRESS BAR FORMAT------------------------->
+<section class="timeline" id="skills">
+			<br>
+			<h1 class="edu">MY <span>skills</span></h1>
+			<br>
+			<div class="skills">
+				<li>
+					<h3>PYTHON</h3><span class="bar"><span class="python"></span></span>
+				</li>
+				<li>
+					<h3>C++</h3><span class="bar"><span class="cpp"></span></span>
+				</li>
+				<li>
+					<h3>MySQL</h3><span class="bar"><span class="sql"></span></span>
+				</li>
+				<li>
+					<h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+				</li>
+				<li>
+					<h3>CSS</h3><span class="bar"><span class="css"></span></span>
+				</li>
+				<li>
+					<h3>REACT</h3><span class="bar"><span class="react"></span></span>
+				</li>
+				<li>
+					<h3>SAP</h3><span class="bar"><span class="sap"></span></span>
+				</li>
+			</div>
+		</section>
+	 <!-------------------CONTACT PAGE,THROUGH BUTTON----------------->
+<section  id="contact">
+		<div class="max-width">
+			<h2 class="title">Contact me</h2>
+			<div >
+				<div >
+					<div class="text">Get in Touch</div>
+					<p>Feel free to contact me anytime. </p>
+					<div >
+						<div >
+
+							<div class="info">
+								<div class="head">Name:</div>
+								<div class="sub-title"><i>Komalsai Sajja</i></div>
+							</div>
+						</div>
+						<div class="row">
+
+							<div class="info">
+								<div class="head">Address:</div>
+								<div class="sub-title"><i>Vijayawada,Andhra Pradesh</i></div>
+							</div>
+						</div>
+						<div >
+
+							<div >
+								<div >Email:</div>
+								<div ><i>komalsai.212is026@nitk.edu.in</i></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
